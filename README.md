@@ -1,43 +1,45 @@
 # Collaboration
 
-Tasks for practicing with GIT
 
-+---------------+----------------------------------------+--------------------+
-| Task \#       | Description                            | Major Action       |
-+:==============+:=======================================+:==================:+
-| 1             | Create a Project                       | Initial Commit     |
-+---------------+----------------------------------------+--------------------+
-| 2             | Create a File                          | Write Code         |
-+---------------+----------------------------------------+--------------------+
-| 3             | Update Remote                          | Commit & Push      |
-+---------------+----------------------------------------+--------------------+
-| 4             | Create Branches                        | Branch             |
-+---------------+----------------------------------------+--------------------+
-| 5             | Navigating Branches                    | Checkout           |
-+---------------+----------------------------------------+--------------------+
-| 6             | Edit File at same time (on dev branch) | Pull / Code / Push |
-+---------------+----------------------------------------+--------------------+
-| 7             | Navigate Merge Conflicts               |                    |
-+---------------+----------------------------------------+--------------------+
-|               |                                        |                    |
-+---------------+----------------------------------------+--------------------+
-|               |                                        |                    |
-+---------------+----------------------------------------+--------------------+
+General Topics:
 
-Topics:
+-   Remote vs. Local repositories
+-   What is branching? Why Branch?
+-   How to deal with merge conflicts Using Atom
+-   How to go back (restoring and resetting)?
+-   GitHub projects
 
-Remote vs. Local
+Tasks for Practicing with GIT:
 
-What is branching? Why Branch?
+| Task \# | Description                  | Action                     |
+|---------|------------------------------|----------------------------|
+| 1       | Create a Project             |                            |
+| 2       | Create a File                |                            |
+| 3       | Update Remote                |                            |
+| 4       | Update Remote                |                            |
+| 5       | Create Branches              | Branch                     |
+| 6       | Edit a File at the Same Time | Pull **→** Code **→** Push |
+| 7       | Navigate Merge Conflicts     | Restore / Reset            |
+| 8       | Going Back                   | Restore / Reset            |
 
-How to deal with merge conflicts Using Atom
+Tracking remote branches locally:
 
-How to go back
+`git branch` (to see branches, including which one you're on)
+
+`git branch <branchname>` (create a new branch)
+
+`git checkout --track origin/figureUpdate`
 
 Restore:
 
-git add . (commit everything)
+`git add .` (commit everything)
 
-git -commit (commit it)
+`git commit -m "add your message here"` (commit it)
 
-git restore --staged README.md (to remove README from the commit)
+`git restore --staged <filename>` (to remove file from the commit)
+
+Reset:
+
+`git reset --hard <commitnumber>` <https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit>
+
+Other Links: - Closing issues from commmit messages: <https://docs.github.com/en/enterprise/2.16/user/github/managing-your-work-on-github/closing-issues-using-keywords> - Change main branch name: <https://medium.com/faun/git-step-by-step-renaming-a-master-branch-to-main-16390ca7577b> - Jenny Bryan on Git/GitHub in R: <https://happygitwithr.com/>
