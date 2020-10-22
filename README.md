@@ -13,11 +13,11 @@ Tasks for Practicing with GIT:
 
 | Task \# | Description                  | Action                     |
 |---------|------------------------------|----------------------------|
-| 1       | Create a Project             |                            |
-| 2       | Create a File                |                            |
-| 3       | Update Remote                |                            |
-| 4       | Update Remote                |                            |
-| 5       | Create Branches              | Branch                     |
+| 1       | Create a Project             | Initial Commit             |
+| 2       | Create a File                | Write Code                 |
+| 3       | Update Remote                | Commit **→** Push          |
+| 4       | Create Branches              | Branch                     |
+| 5       | Navigating Branches          | Checkout                   |
 | 6       | Edit a File at the Same Time | Pull **→** Code **→** Push |
 | 7       | Navigate Merge Conflicts     | Restore / Reset            |
 | 8       | Going Back                   | Restore / Reset            |
