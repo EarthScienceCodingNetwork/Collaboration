@@ -1,5 +1,6 @@
 library(tidyverse)
 
+
 ggplot(mtcars)+
   geom_point(aes(x=hp,y=wt, color = as.factor(gear)))+
                scale_color_manual(
